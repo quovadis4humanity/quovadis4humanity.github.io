@@ -5,7 +5,7 @@ h1, h2, h3, h6, p, h4,H5		{font-family:  verdana,sans-serif,  }
 
 div.a {line-height: 1.6;}
 
-h1, h2, h3, h4, h5, h6, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, p, table, object	{display: inline;}
+b strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, p, table, object	{display: inline;}
 
 h1, h2, h3, h4, b, h5	{font-weight: bolder} 
 p 					    {font-weight: bold} 
@@ -13,15 +13,19 @@ p 					    {font-weight: bold}
 h1, h2, h6, h3				{font-style: normal}
 p, h4, h5					{font-style: normal}
 	
-h1,  h4, h6,  p 	{color:#424242}
-h2, h3				{color:#2E2E2E}
-h5					{color:#ccffff}
+h1, h2, h3, h4, h5, h6,  	{color:#424242}
+p				{color:#2E2E2E}
 
-h6					{font-size:18pt;}
-h3 		    	 	{font-size:20pt;}
-h2 			 	   	{font-size:13pt;}
-p 					{font-size:18pt;}
-h5					{font-size:8pt;}					
+
+
+h5		{font-size:24pt;}
+h4		{font-size:22pt;}
+h3 		{font-size:20pt;}
+h2 		{font-size:16pt;}
+h1		{font-size:14pt;}
+p 		{font-size:18pt;}
+					
+h1           	{font-size: 16pt;}
 
 i, cite, em 				{font-style: italic}
 
@@ -30,8 +34,47 @@ h2, h3, h4, p				{text-align: justify }
 					
 img					{border-color:#3f5582;}
 
-a:link 		{ color: #1e3149 }      /* unvisited link */
-a:visited	{ color: #1e3149 }       /* visited links */
-a:hover      { color: #4F7ED3 }
-a:active 	{ color: #1e3149 }   	 /* active links */
+a:link 		{ color: #3A2F0B}      /* unvisited link */
+a:visited	{ color: #292A0A}       /* visited links */
+a:hover      { color: #1C1C1C}
+a:active 	{ color: #122A0A}   	 /* active links */
 <!-- a {text-decoration:none}//-->
+
+<!-- 
+#menu {
+
+  position: fixed;
+
+  height: 60px;
+
+  width: 100%;
+
+  top: 0;
+
+  left: 0;
+
+  border-top: 5px solid #a1cb2f;
+
+  background: #fff;
+
+  -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+
+  -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+
+  z-index: 999999;
+
+}
+
+ 
+
+.w {
+
+  width: 100%;
+
+  margin: 0 auto;
+
+  margin-bottom: 40px;
+
+}<br type="_moz">{  }
