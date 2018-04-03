@@ -1,0 +1,109 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+
+<!-- ----------------------------- Start Comment Script ------------------------ -->
+    <title>EasyComment Sample</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <script type="text/javascript" 
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" 
+            src="./easy-comment/jquery.easy-comment.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+    // Your other javascript code if any
+
+    $("#comment").EasyComment({
+      path:"/easy-comment/", //Change it to the folder where you put the easycomment files
+      moderate:false,
+      maxReply:5
+    });
+
+    });
+    </script>
+<!-- ----------------------------- End  Comment Script ------------------------ -->
+
+<!-- ----------------------------- Start   JQuery Script ------------------------ -->
+
+<script type="text/javascript" 
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" 
+        src="https://github.com/quovadis4humanity/quovadis4humanity.github.io/blob/easy-comment/jquery.easy-comment.min.js"></script>
+        
+<!-- ----------------------------- End  JQuery Script ------------------------ -->
+
+<!-- ----------------------------- Start Nav Bar Header Script ------------------------ -->
+
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #6E6E6E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 2px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+<!--
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+   -->
+   
+</style>
+<!-- ----------------------------- End  Nav Bar Header Script ------------------------ -->
+
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+<!-- ------------------ Start Nav Bar Body  ---------------------------- -->
+
+<div class="navbar">
+<script type="text/javascript" src="navigationbar.js"href=" navigationbar.js"></script>
+<!--
+  <a href="index.html"><font size="6">Home</font></a>
+  <a href="karma.html"><font size="6">Karma</font></a>
+  <a href="#contact"></a>
+    -->
+</div>
+<div class="a">
+<div class="main">
+<h2>
+<div style="position: relative; left: 15; top: 20;">
+
+<!-- ------------------ End Nav Bar Body  ---------------------------- -->
+
+
+    <div id="comment" style="width:800px;height:800px;"></div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
