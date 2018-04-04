@@ -1,71 +1,25 @@
 
 <html>
-
-<head>
-
-
-<!-- ----------------------------- Start Comment Script ------------------------ -->
-    
-<title>Leave Your Comment</title>
-    
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-    
-<script type="text/javascript" 
-            src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    
-<script type="text/javascript" 
-            src="https://github.com/quovadis4humanity/quovadis4humanity.github.io/blob/master/easy-comment/jquery.easy-comment.js"></script>
-   
-<script type="text/javascript">
+  <head>
+    <title>EasyComment Sample</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./easy-comment/jquery.easy-comment.min.js"></script>
+    <script type="text/javascript">
     jQuery(document).ready(function(){
     // Your other javascript code if any
 
- 
-   $("#comment").EasyComment({
-      path:"https://github.com/quovadis4humanity/quovadis4humanity.github.io/blob/master/easy-comment/", //Change it to the folder where you put the easycomment files
+    $("#id_of_your_comment_container").EasyComment({
+      path:"/easy-comment/", //Change it to the folder where you put the easycomment files
       moderate:false,
       maxReply:5
     });
-
+    // Your other javascript code if any
     });
     </script>
-
-<!-- ----------------------------- End  Comment Script ------------------------ -->
-
-
-
-<!-- ----------------------------- Start   JQuery Script ------------------------ -->
-
-
-<script type="text/javascript" 
-        src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-
-<script type="text/javascript" 
-        src="https://github.com/quovadis4humanity/quovadis4humanity.github.io/blob/master/easy-comment/jquery.easy-comment.min.js"></script>
-        
-
-<!-- ----------------------------- End  JQuery Script ------------------------ -->
-
-
-
-
-
-
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-
-</head>
-<body>
-
-
-
-    
-<div id="comment" style="width:800px;height:200px;"></div>
-
-
-
-
-    
-<h3>Under Construction</h3>
-</body>
-
-</html>
+  </head>
+  <body>
+    <h3>EasyComment Sample</h3>
+    <div id="id_of_your_comment_container" style="width:800px;height:800px;"></div>
+  </body>
+</html> 
