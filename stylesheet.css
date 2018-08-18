@@ -5,39 +5,48 @@ h1, h2, h3, h6, p, h4,H5		{font-family:  verdana,sans-serif,  }
 
 div.a {line-height: 1.6;}
 
-b strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, p, table, object	{display: inline;}
+p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, table, object	{display: inline;}
 
-h1, h2, h3, h4, b, h5	{font-weight: bolder} 
-p 					    {font-weight: bold} 
 
-h1, h2, h6, h3				{font-style: normal}
-p, h4, h5					{font-style: normal}
+h1, h3, h4, b, h5	{font-weight: bolder} 
+p, UL 		    {font-weight: bold} 
+
+
+
 	
-h1, h2, h3, h4, h5, h6,  	{color:#424242}
-p				{color:#2E2E2E}
+h1, h2, h3, h4, h5, h6  		{color:#2E2E2E}
+p, UL			{color:#424242}
 
 
 
-h5		{font-size:24pt;}
-h4		{font-size:22pt;}
-h3 		{font-size:20pt;}
-h2 		{font-size:16pt;}
-h1		{font-size:14pt;}
-p 		{font-size:18pt;}
-					
-h1           	{font-size: 16pt;}
+h5			{font-size:24pt;}
+h4			{font-size:22pt;}
+h3 			{font-size:22pt;}
+h2 			{font-size:20pt;}
+h1			{font-size:16pt;}
+p, p.b, UL 	{font-size:18pt;}
+							
+
+h4, h2, p.b	{font-style: italic;}
+h4, p.b		{line-height: 100%}
+h4, p.b		{margin-bottom: 0em}
 
 i, cite, em 				{font-style: italic}
 
-h1, h5					{text-align: center }
-h2, h3, h4, p				{text-align: justify }
+
+h2, h3, h4, h5, h6, p				{text-align: left }
 					
 img					{border-color:#3f5582;}
 
-a:link 		{ color: #3A2F0B}      /* unvisited link */
-a:visited	{ color: #292A0A}       /* visited links */
+td			{vertical-align: text-top;}
+
+a:link 		{ color: #445E06}      /* unvisited link */
+a:visited	{ color: #243B0B}       /* visited links */
 a:hover      { color: #1C1C1C}
 a:active 	{ color: #122A0A}   	 /* active links */
+
+body {margin:50;padding:0}
+
 <!-- a {text-decoration:none}//-->
 
 <!-- 
