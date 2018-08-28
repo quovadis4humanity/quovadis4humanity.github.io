@@ -29,7 +29,7 @@ p, p.b  	{font-size:1.7em;}
 
 			p {font-family: "georgia";}			
 	
-<!-- ..........i.e. <div class="top">  ========== -->
+/*-- ..........i.e. <div class="top">  ========== --*/
 
 
 {  }
@@ -46,7 +46,7 @@ p, p.b  	{font-size:1.7em;}
 .top > * {
   vertical-align: top;
 }
-<!-- ..........i.e. <div class="top">  ========== -->
+/*-- ..........i.e. <div class="top">  ========== --*/
 			
 {  }
 {  }
@@ -65,6 +65,7 @@ h2, h3, h4, h5, h6, p				{text-align: left }
 img					{border-color:#3f5582;}
 
 td			{vertical-align: text-top;}
+td.a   			{border-radius: 20px;}
 
 a:link 		{ color: #445E06}      /* unvisited link */
 a:visited	{ color: #243B0B}       /* visited links */
@@ -72,52 +73,6 @@ a:hover      { color: #1C1C1C}
 a:active 	{ color: #122A0A}   	 /* active links */
 
 body {margin:50;padding:0}
-
-
-
-
-
-
-<!-- a {text-decoration:none}//-->
-
-<!-- 
-#menu {
-
-  position: fixed;
-
-  height: 60px;
-
-  width: 100%;
-
-  top: 0;
-
-  left: 0;
-
-  border-top: 5px solid #a1cb2f;
-
-  background: #fff;
-
-  -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-
-  -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-
-  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-
-  z-index: 999999;
-
-}
-
- 
-
-.w {
-
-  width: 100%;
-
-  margin: 0 auto;
-
-  margin-bottom: 40px;
-
-}<br type="_moz">{  }
 
 div.static {position: absolute; left: 10px; top: 0px;}
 
