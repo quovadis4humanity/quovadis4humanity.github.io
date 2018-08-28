@@ -1,7 +1,7 @@
-h2, p 						{ margin-bottom: 1em }
-h2, p 						{ margin-top: 1em }
-{font-family:  times new roman, roman, helvetica, sans, Arial}
-h1, h2, h3, h6, p, h4,H5		{font-family:  verdana,sans-serif,  }
+h2, h3, h4, h5 						{ margin: .2em 0 }
+
+
+h1, h2, h3, h6, h4, h5		{font-family:  verdana,sans-serif,  }
 
 div.a {line-height: 1.6;}
 
@@ -10,7 +10,7 @@ p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span,
 
 h1, h3, h4, b, h5	{font-weight: bolder} 
 
-h2 {font-weight: 600;}
+p, h2 {font-weight: 500;}
 
 
 	
@@ -19,14 +19,40 @@ p, ul, h2			{color:#424242}
 
 
 
-h5			{font-size:24pt;}
-h4			{font-size:22pt;}
-h3 			{font-size:20pt;}
-h2 			{font-size:20pt;}
-h1			{font-size:16pt;}
-p, p.b, UL 	{font-size:20pt;}
-							
+h5			{font-size:2em;}
+h4			{font-size:1.8em;}
+h3 			{font-size:1.7em;}
+h2 			{font-size:1.7em;}
+h1			{font-size:1.4em;}
+p, p.b  	{font-size:1.7em;}
+				
 
+			p {font-family: "georgia";}			
+	
+<!-- ..........i.e. <div class="top">  ========== -->
+
+
+{  }
+{  }
+{  }
+{  }
+.top > * {
+  vertical-align: top;
+}
+.middle > * {
+  vertical-align: middle;
+}
+
+.top > * {
+  vertical-align: top;
+}
+<!-- ..........i.e. <div class="top">  ========== -->
+			
+{  }
+{  }
+{  }
+{  }
+{  }
 h4, h2, p.b	{font-style: italic;}
 h4, p.b		{line-height: 100%}
 h4, p.b		{margin-bottom: 0em}
@@ -46,6 +72,11 @@ a:hover      { color: #1C1C1C}
 a:active 	{ color: #122A0A}   	 /* active links */
 
 body {margin:50;padding:0}
+
+
+
+
+
 
 <!-- a {text-decoration:none}//-->
 
@@ -87,3 +118,6 @@ body {margin:50;padding:0}
   margin-bottom: 40px;
 
 }<br type="_moz">{  }
+
+div.static {position: absolute; left: 10px; top: 0px;}
+
