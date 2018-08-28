@@ -74,5 +74,7 @@ a:active 	{ color: #122A0A}   	 /* active links */
 
 body {margin:50;padding:0}
 
+
+/* div tag for header jpg  */
 div.static {position: absolute; left: 10px; top: 0px;}
 
