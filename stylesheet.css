@@ -24,7 +24,7 @@ h4			{font-size:1.8em;}
 h3 			{font-size:1.7em;}
 h2 			{font-size:1.7em;}
 h1			{font-size:1.4em;}
-p, p.b  	{font-size:1.7em;}
+p, p.b  		{font-size:1.7em;}
 				
 
 			p {font-family: "georgia";}			
@@ -67,13 +67,12 @@ img					{border-color:#3f5582;}
 td			{vertical-align: text-top;}
 td.a   			{border-radius: 20px;}
 
-a:link 		{ color: #445E06}      /* unvisited link */
-a:visited	{ color: #243B0B}       /* visited links */
-a:hover      { color: #1C1C1C}
-a:active 	{ color: #122A0A}   	 /* active links */
+a:link 		{ color: #445E06; text-decoration: none;}       /* unvisited link */
+a:visited	{ color: #243B0B; text-decoration: none;}       /* visited links */
+a:hover         { color: #1C1C1C; text-decoration: none;}
+a:active 	{ color: #122A0A; text-decoration: none;}       /* active links */
 
 body {margin:50;padding:0}
-
 
 /* div tag for header jpg  */
 div.static {position: absolute; left: 10px; top: 0px;}
