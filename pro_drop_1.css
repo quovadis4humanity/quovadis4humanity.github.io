@@ -40,9 +40,9 @@ way to fit your requirements.
 #nav li:hover ul.sub
 {left:0; top:45px; background: #fff; padding:3px; border:1px solid #6e6e6e; white-space:nowrap; width:auto; height:auto; z-index:300;}
 #nav li:hover ul.sub li
-{display:block; height:31px; position:relative; float:left; width:auto; font-weight:bold;}
+{display:block; font-size:22px; height:30px; position:relative; float:left; width:auto; font-weight:bold;}
 #nav li:hover ul.sub li a
-{display:block; font-size:24px; height:24px; width:auto; line-height:24px; text-indent:5px; color:#454200; text-decoration:none;}
+{display:block; font-size:22px; height:30px; width:auto; line-height:30px; text-indent:5px; color:#454200; text-decoration:none;}
 #nav li ul.sub li a.fly
 {background:#fff url('arrow.gif') no-repeat 200px 7px;}
 #nav li:hover ul.sub li a:hover 
