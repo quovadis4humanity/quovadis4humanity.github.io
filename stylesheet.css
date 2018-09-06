@@ -27,8 +27,18 @@ h1			{font-size:1.4em;}
 p, p.b  		{font-size:1.7em;}
 				
 
-			p {font-family: "georgia";}			
+p {font-family: "georgia";}
+
+/* +++++++++++++  Text Shadow +++++++++++++++++++++ */
+
+p1 	{ text-shadow: 1px 1px #ffffff; font-size:1.7em; color:#000000; font-weight: 600;}		
+p2	{ text-shadow: 1px 1px 2px #6e6e6e, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:1.7em; color:#000000; font-weight: 600;}
+p3	{ text-shadow: 1px 1px 2px #6e6e6e, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}
 	
+h6	{ text-shadow: 2px 2px #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}		
+h7	{ text-shadow: 1px 1px 2px black, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}
+	
+
 /*-- ..........i.e. <div class="top">  ========== --*/
 
 
@@ -75,5 +85,6 @@ a:active 	{ color: #122A0A; text-decoration: none;}       /* active links */
 body {margin:50;padding:0}
 
 /* div tag for header jpg  */
-div.static {position: absolute; left: 10px; top: 0px;}
+div.static {position: absolute; left: 50px; top: 0px;}
 
+div.eltlogo {position: absolute; left: 45px; top: 40px;}
