@@ -31,9 +31,20 @@ p {font-family: "georgia";}
 
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
-p1 	{ text-shadow: 1px 1px #ffffff; font-size:1.7em; color:#000000; font-weight: 600;}		
-p2	{ text-shadow: 1px 1px 2px #6e6e6e, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:1.7em; color:#000000; font-weight: 600;}
-p3	{ text-shadow: 1px 1px 2px #6e6e6e, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}
+p1 	{ text-shadow: 2px 2px #ffffff; font-size:1.7em; color:#000000; font-weight: 600;}		
+p2	{ text-shadow: 2px 2px 2px #ffffff, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:1.7em; color:#000000; font-weight: 600;}
+p3	{ text-shadow: 2px 2px 2px #ffffff, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}
+p4	{ text-shadow:	0 2px 0 #999, 
+			0 3px 0 #888, 
+			0 4px 0 #777, 
+			0 5px 0 #555, 
+			0 6px 0 #333, 
+			/*0 7px 0 #444, 
+			0 8px 0 #333, */
+			0 7px 5px #302314; font-size:2em; color:#000000; 
+			font-weight: 600;}
+
+
 	
 h6	{ text-shadow: 2px 2px #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}		
 h7	{ text-shadow: 1px 1px 2px black, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}
