@@ -33,7 +33,7 @@ p, ul, ol, li		{font-family: "georgia";}
 
 p1 	{ text-shadow: 1px 1px #d4af37; font-size:1.2em; color:#000000; font-weight: 600;}		
 p2	{ text-shadow: 2px 2px 2px #ffffff, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:1.2em; color:#000000; font-weight: 600;}
-p3	{ text-shadow: 2px 2px 2px #000000, 0 0 1em #d4af37, 0 0 0.2em #d4af37; font-size:1.2em; color:#000000; font-weight: 600;}
+p3	{ text-shadow: 1px 1px 1px #003bde, 0 0 1em #d4af37, 0 0 0.2em #d4af37; font-size:1.3em; color:#000000; font-weight: 600;}
 p4	{ text-shadow:	0 2px 0 #999, 
 			0 3px 0 #888, 
 			0 4px 0 #777, 
@@ -48,6 +48,57 @@ p4	{ text-shadow:	0 2px 0 #999,
 	
 h6	{ text-shadow: 2px 2px #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}		
 h7	{ text-shadow: 1px 1px 2px black, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}
+	
+
+/*-- ..........i.e. <div class="top">  ========== --*/
+
+
+{  }
+{  }
+{  }
+{  }
+.top > * {
+  vertical-align: top;
+}
+.middle > * {
+  vertical-align: middle;
+}
+
+.top > * {
+  vertical-align: top;
+}
+/*-- ..........i.e. <div class="top">  ========== --*/
+			
+{  }
+{  }
+{  }
+{  }
+{  }
+h4, h2, p.b	{font-style: italic;}
+h4, p.b		{line-height: 100%}
+h4, p.b		{margin-bottom: 0em}
+
+i, cite, em 				{font-style: italic}
+
+
+h2, h3, h4, h5, h6, p				{text-align: left }
+					
+img					{border-color:#3f5582;}
+
+td			{vertical-align: text-top;}
+td.a   			{border-radius: 20px;}
+
+a:link 		{ color: #445E06; text-decoration: none;}       /* unvisited link */
+a:visited	{ color: #243B0B; text-decoration: none;}       /* visited links */
+a:hover         { color: #1C1C1C; text-decoration: none;}
+a:active 	{ color: #122A0A; text-decoration: none;}       /* active links */
+
+body {margin:70;padding:0}
+
+/* div tag for header jpg  */
+div.static {position: absolute; left: 50px; top: 0px;}
+
+div.eltlogo {position: absolute; left: 45px; top: 40px;}
 	
 
 /*-- ..........i.e. <div class="top">  ========== --*/
