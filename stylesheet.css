@@ -93,60 +93,19 @@ a:visited	{ color: #243B0B; text-decoration: none;}       /* visited links */
 a:hover         { color: #1C1C1C; text-decoration: none;}
 a:active 	{ color: #122A0A; text-decoration: none;}       /* active links */
 
-body {margin:70;padding:0}
+body {margin:70; padding:0}
 
 /* div tag for header jpg  */
 div.static {position: absolute; left: 50px; top: 0px;}
 
 div.eltlogo {position: absolute; left: 45px; top: 40px;}
-	
 
-/*-- ..........i.e. <div class="top">  ========== --*/
-
-
-{  }
-{  }
-{  }
-{  }
-.top > * {
-  vertical-align: top;
-}
-.middle > * {
-  vertical-align: middle;
+/* Image <img class="z" .....> */
+img.z {
+    transition:transform 0.25s ease;
 }
 
-.top > * {
-  vertical-align: top;
+img.z:hover {
+    -webkit-transform:scale(3); /* or some other value */
+    transform:scale(1.7);
 }
-/*-- ..........i.e. <div class="top">  ========== --*/
-			
-{  }
-{  }
-{  }
-{  }
-{  }
-h4, h2, p.b	{font-style: italic;}
-h4, p.b		{line-height: 100%}
-h4, p.b		{margin-bottom: 0em}
-
-i, cite, em 				{font-style: italic}
-
-
-h2, h3, h4, h5, h6, p				{text-align: left }
-					
-img					{border-color:#3f5582;}
-
-td			{vertical-align: text-top;}
-td.a   			{border-radius: 20px;}
-
-a:link 		{ color: #445E06; text-decoration: none;}       /* unvisited link */
-a:visited	{ color: #243B0B; text-decoration: none;}       /* visited links */
-a:hover         { color: #1C1C1C; text-decoration: none;}
-a:active 	{ color: #122A0A; text-decoration: none;}       /* active links */
-
-body {margin:70;padding:0}
-
-/* div tag for header jpg  */
-div.static {position: absolute; left: 50px; top: 0px;}
-
-div.eltlogo {position: absolute; left: 45px; top: 40px;}
