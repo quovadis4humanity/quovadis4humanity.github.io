@@ -1,14 +1,14 @@
 h2, h3, h4, h5, p1, p2, p3, p3,		{ margin: .2em 0 }
 
 
-h1, h2, h3, h6, h4, h5		{font-family:  verdana,sans-serif,  }
+h1, h2, h3, h6, h4, h5, p6		{font-family:  verdana,sans-serif,  }
 
 div.a {line-height: 1.6;}
 
 p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, table, object	{display: inline;}
 
 
-h1, h3, h4, b, h5	{font-weight: bolder} 
+h1, h3, h4, b, h5, p6	{font-weight: bolder} 
 
 p, h2 {font-weight: 500;}
 
@@ -28,6 +28,7 @@ p, p.b  		{font-size:1em;}
 li			{font-size:1em;}				
 ul.inside		{font-size:1em;}
 p, ul, ol, li		{font-family: "georgia";}
+p6		{font-size:1.3em; color:#a52101; }
 
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
