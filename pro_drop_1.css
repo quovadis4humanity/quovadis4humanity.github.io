@@ -12,7 +12,7 @@ way to fit your requirements.
 .preload1 {background: url('blank_over.gif');}
 .preload2 {background: url('blank_overa.gif');}
 
-#nav {padding:0; margin:0; margin-top:-60px; list-style:none; height:48px; background:#fff; position:fixed; z-index:500; font-family:arial, verdana, sans-serif; text-shadow: 1px 0px #ffffff;}
+#nav {padding:0; margin:0; margin-top:-50px; list-style:none; height:48px; background:#fff; position:fixed; z-index:500; font-family:arial, verdana, sans-serif; text-shadow: 1px 0px #ffffff;}
 #nav li.top {display:block; float:left;}
 #nav li a.top_link {display:block; float:left; height:48px; line-height:48px; color:#2b2902; text-decoration:none; font-size:28px; font-weight:bold; cursor:pointer;background: url('blank.gif');; padding-left:12px; padding-right:0; padding-top:0; padding-bottom:0}
 #nav li a.top_link span {float:left; display:block; height:48px;background:url('blank.gif') right top;; padding-left:12px; padding-right:24px; padding-top:0; padding-bottom:0}
