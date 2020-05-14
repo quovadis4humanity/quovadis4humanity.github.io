@@ -68,6 +68,7 @@ h7	{ text-shadow: 1px 1px 2px black, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-si
 .top > * {
   vertical-align: top;
 }
+
 /*-- ..........i.e. <div class="top">  ========== --*/
 			
 {  }
@@ -89,24 +90,42 @@ img					{border-color:#3f5582;}
 td			{vertical-align: text-top;}
 td.a   			{border-radius: 20px;}
 
-a:link 		{ color: #445E06; text-decoration: none;}       /* unvisited link */
+a:link 	{ color: #445E06; text-decoration: none; font-weight: 600;}       /* unvisited link */
 a:visited	{ color: #243B0B; text-decoration: none;}       /* visited links */
-a:hover         { color: #1C1C1C; text-decoration: none;}
+a:hover   { color: #1C1C1C; text-decoration: none;}
 a:active 	{ color: #122A0A; text-decoration: none;}       /* active links */
 
 body {margin:70; padding:0}
 
-/* div tag for header jpg  */
+	/* div tag for header jpg  */
 div.static {position: absolute; left: 50px; top: 0px;}
 
 div.eltlogo {position: absolute; left: 45px; top: 40px;}
 
-/* Image <img class="z" .....> */
+	/* Image <img class="z" .....> */
 img.z {
     transition:transform 0.25s ease;
 }
 
 img.z:hover {
-    -webkit-transform:scale(3); /* or some other value */
+    -webkit-transform:scale(3);	 /* or some other value */
     transform:scale(1.7);
+}
+
+	/* Image align centre */
+img.center
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+div.nav {
+    position: fixed;
+    top: -7px;
+    left: 42px;
+    height: 300px;
+    width: 100%;
+    z-index: 99;
 }
