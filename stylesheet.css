@@ -18,18 +18,19 @@ h1,  h3, h4, h5, h6  		{color:#353535}
 p, ul, h2			{color:#424242}
 
 
-
+h1			{font-size:1.6rem;}
 h5			{font-size:1.3rem;}
 h4			{font-size:1.3rem;}
 h3 			{font-size:1.3rem;}
 h2 			{font-size:1.3rem;}
-h1			{font-size:1.3rem;}
-p, p.b  		{font-size:1.3rem;}
-li			{font-size:1.3rem;}				
-ul.inside		{font-size:1.3rem;}
-p, ul, ol, li		{font-family: "georgia";}
-p6		{font-size:1.3em; color:#a52101; }
-p7		{font-size:1.2em; color:#521000; }
+p, p.b, td  	                {font-size:1.3rem;}
+ul, span			{font-size:1.3rem;}				
+
+p, ul, ol,    		{font-family: "georgia";}
+p6			{font-size:1.3em; color:#a52101; }
+p7			{font-size:1.3em; color:#521000; }
+
+
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
 p1 	{ text-shadow: 1px 1px #d4af37; font-size:1.2em; color:#000000; font-weight: 600;}		
@@ -128,4 +129,14 @@ div.nav {
     height: 300px;
     width: 100%;
     z-index: 99;
+}
+
+	/* Image <img class="z" .....> */
+.z {
+    transition:transform 0.25s ease;
+}
+
+.z:hover {
+    -webkit-transform:scale(3); /* or some other value */
+    transform:scale(1.7);
 }
