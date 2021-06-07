@@ -1,11 +1,11 @@
-h2, h3, h4, h5, p1, p2, p3, p3,		{ margin: .2em 0 }
+h2, h3, h4, h5, p1, p2, 		{ margin: .2em 0 }
 
 
 h1, h2, h3, h6, h4, h5, p6		{font-family:  verdana,sans-serif,  }
 
 div.a {line-height: 1.6;}
 
-p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, table, object	{display: inline;}
+p3, p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, table, object	{display: inline;}
 
 
 h1, h3, h4, b, h5, p6	{font-weight: bolder} 
@@ -34,8 +34,8 @@ p7			{font-size:1.3em; color:#521000; }
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
 p1 	{ text-shadow: 1px 1px #d4af37; font-size:1.2em; color:#000000; font-weight: 600;}		
-p2	{ text-shadow: 2px 2px 2px #ffffff, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:1.2em; color:#000000; font-weight: 600;}
-p3	{ text-shadow: 1px 1px 1px #003bde, 0 0 1em #d4af37, 0 0 0.2em #d4af37; font-size:1.3em; color:#000000; font-weight: 600;}
+p2	{ text-shadow: 2px 1px 1px #000000, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:1.3em; color:#000000; }
+p3	{ text-shadow: 1px 1px 1px #003bde, 0 0 1em #d4af37, 0 0 0.2em #d4af37; font-size:1.3em; color:#000000; }
 p4	{ text-shadow:	0 2px 0 #999, 
 			0 3px 0 #888, 
 			0 4px 0 #777, 
