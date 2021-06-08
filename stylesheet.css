@@ -18,18 +18,18 @@ h1,  h3, h4, h5, h6  		{color:#353535}
 p, ul, h2			{color:#424242}
 
 
-h1			{font-size:1.6rem;}
-h5			{font-size:1.5rem;}
-h4			{font-size:1.5rem;}
-h3 			{font-size:1.5rem;}
-h2 			{font-size:1.5rem;}
-p, p.b,	                {font-size:1.6rem;}
+h1			{font-size:1.7rem;}
+h5			{font-size:1.7rem;}
+h4			{font-size:1.7rem;}
+h3 			{font-size:1.7rem;}
+h2 			{font-size:1.7rem;}
+p, p.b,	                {font-size:1.7rem;}
 /*
-ul, span, td		{font-size:1.5rem;}				
+ul, span, td		{font-size:1.7rem;}				
 */
 p, ul, ol,    		{font-family: "georgia";}
-p6			{font-size:1.5em; color:#a52101; }
-p7			{font-size:1.5em; color:#521000; }
+p6			{font-size:1.7em; color:#a52101; }
+p7			{font-size:1.7em; color:#521000; }
 
 /* ++++++++++++++++++ Text Size Test ++++++++++++++++++++++ */
 ul, span, td		{font-size: 18px;}
