@@ -32,7 +32,8 @@ p7			{font-size:1.3em; color:#521000; }
 
 
 /* ++++++++++++++++++++++ For Mobile Text Size ++++++++++++++++++ */
-span, p, td, ul, h1, h2, 	 {font-size-adjust: none;}
+
+span, td, ul,	 	{  -webkit-text-size-adjust: none;  text-size-adjust: 50%;}
 
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
