@@ -23,9 +23,10 @@ h5			{font-size:1.3rem;}
 h4			{font-size:1.3rem;}
 h3 			{font-size:1.3rem;}
 h2 			{font-size:1.3rem;}
-p, p.b, td  	                {font-size:1.3rem;}
-ul, span			{font-size:1.3rem;}				
-
+p, p.b,	                {font-size:1.3rem;}
+/*
+ul, span, td		{font-size:1.3rem;}				
+*/
 p, ul, ol,    		{font-family: "georgia";}
 p6			{font-size:1.3em; color:#a52101; }
 p7			{font-size:1.3em; color:#521000; }
