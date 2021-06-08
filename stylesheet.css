@@ -19,20 +19,20 @@ p, ul, h2			{color:#424242}
 
 
 h1			{font-size:1.6rem;}
-h5			{font-size:1.4rem;}
-h4			{font-size:1.4rem;}
-h3 			{font-size:1.4rem;}
-h2 			{font-size:1.4rem;}
-p, p.b,	                {font-size:1.4rem;}
+h5			{font-size:1.5rem;}
+h4			{font-size:1.5rem;}
+h3 			{font-size:1.5rem;}
+h2 			{font-size:1.5rem;}
+p, p.b,	                {font-size:1.5rem;}
 /*
-ul, span, td		{font-size:1.4rem;}				
+ul, span, td		{font-size:1.5rem;}				
 */
 p, ul, ol,    		{font-family: "georgia";}
-p6			{font-size:1.4em; color:#a52101; }
-p7			{font-size:1.4em; color:#521000; }
+p6			{font-size:1.5em; color:#a52101; }
+p7			{font-size:1.5em; color:#521000; }
 
 /* ++++++++++++++++++ Text Size Test ++++++++++++++++++++++ */
-ul, span, td		{font-size: 22px;}
+ul, span, td		{font-size: 18px;}
 /* +++++++++++++++ Body Margin +++++++++++++++ */
 body {margin:3%; padding:0}
 
