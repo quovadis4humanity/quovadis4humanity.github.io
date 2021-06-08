@@ -31,7 +31,7 @@ p6			{font-size:1.3em; color:#a52101; }
 p7			{font-size:1.3em; color:#521000; }
 
 /* ++++++++++++++++++ Text Size Test ++++++++++++++++++++++ */
-ul, span, td		{font-size: 1.3rem;}
+ul, span, td		{font-size: 1.3sp;}
 
 
 
