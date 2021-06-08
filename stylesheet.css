@@ -32,7 +32,7 @@ p6			{font-size:1.4em; color:#a52101; }
 p7			{font-size:1.4em; color:#521000; }
 
 /* ++++++++++++++++++ Text Size Test ++++++++++++++++++++++ */
-ul, span, td		{font-size: 20px;}
+ul, span, td		{font-size: 22px;}
 /* +++++++++++++++ Body Margin +++++++++++++++ */
 body {margin:3%; padding:0}
 
