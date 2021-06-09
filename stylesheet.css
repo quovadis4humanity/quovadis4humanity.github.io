@@ -25,7 +25,7 @@ h3 			{font-size:1.7rem;}
 h2 			{font-size:1.7rem;}
 p, p.b,	                {font-size:1.7rem;}
 /*
-ul, span, td		{font-size:1.7rem;}				
+ul, span, td, body	{font-size:1.7rem;}				
 */
 p, ul, ol,    		{font-family: "georgia";}
 p6			{font-size:1.7rem; color:#a52101; }
