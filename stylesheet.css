@@ -15,26 +15,25 @@ p, h2 {font-weight: 500;}
 
 	
 h1,  h3, h4, h5, h6  		{color:#353535}
-p, ul, h2			{color:#424242}
+p, ul, h2, body, td, ul, ol	{color:#424242}
 
 
-h1			{font-size:1.7rem;}
+h1			{font-size:1.4rem;}
 h5			{font-size:21px;}
-h4			{font-size:1.7rem;}
-h3 			{font-size:1.7rem;}
-h2 			{font-size:1.7rem;}
-p, p.b,	                {font-size:1.7rem;}
+h4			{font-size:1.4rem;}
+h3 			{font-size:1.4rem;}
+h2 			{font-size:1.4rem;}
+p, p.b 	 	                {font-size:1.4rem;}
 /*
-ul, span, td, body	{font-size:1.7rem;}				
+ul, span, td, body		{font-size:1.4rem;}				
 */
 p, ul, ol,    		{font-family: "georgia";}
-p6			{font-size:1.7rem; color:#a52101; }
-p7			{font-size:1.7rem; color:#521000; }
+p6			{font-size:1.4rem; color:#a52101; }
+p7			{font-size:1.4rem; color:#521000; }
 
 /* ++++++++++++++++++ Text Size Test ++++++++++++++++++++++ */
-ul, span, td		{font-size: 18px;}
-/* +++++++++++++++ Body Margin +++++++++++++++ */
-body {margin:6%; padding:0}
+ul, span, td		{font-size: 22px;}
+
 
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
@@ -48,7 +47,7 @@ p4	{ text-shadow:	0 2px 0 #999,
 			0 6px 0 #333, 
 			/*0 7px 0 #444, 
 			0 8px 0 #333, */
-			0 7px 5px #302314; font-size:2em; color:#000000; 
+			0 7px 5px #302314; font-size:3em; color:#795100; 
 			font-weight: 600;}
 
 
@@ -101,7 +100,7 @@ a:visited	{ color: #243B0B; text-decoration: none;}       /* visited links */
 a:hover   { color: #1C1C1C; text-decoration: none;}
 a:active 	{ color: #122A0A; text-decoration: none;}       /* active links */
 
-
+body {margin:3%; padding:0}
 
 	/* div tag for header jpg  */
 div.static {position: absolute; left: 50px; top: 0px;}
