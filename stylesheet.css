@@ -37,7 +37,7 @@ ul, span, td		{font-size: 22px;}
 
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
-p1 	{ text-shadow: 1px 1px #d4af37; font-size:1.2em; color:#000000; font-weight: 600;}		
+p1 	{ text-shadow: 1px 1px #d4af37; font-size:1.4rem; color:#000000; font-weight: 600;}		
 p2	{ text-shadow: 2px 1px 1px #000000, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:1.3em; color:#000000; }
 p3	{ text-shadow: 1px 1px 1px #003bde, 0 0 1em #d4af37, 0 0 0.2em #d4af37; font-size:1.3em; color:#000000; }
 p4	{ text-shadow:	0 2px 0 #999, 
@@ -143,4 +143,17 @@ div.nav {
 .z:hover {
     -webkit-transform:scale(3); /* or some other value */
     transform:scale(1.7);
+}
+
+/* -------------------------------- Image Shadow -------------------------- */
+  img.s {
+            filter: drop-shadow(5px 5px 5px #222);
+            
+           
+        }
+/* +++++++++++++ td margin padding +++++++++++++++++++++++++++++++ */
+td {
+
+ padding: 5;
+ margin: 0;
 }
