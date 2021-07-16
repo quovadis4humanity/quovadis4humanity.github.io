@@ -39,7 +39,7 @@ ul, span, td		{font-size: 22px;}
 
 p1 	{ text-shadow: 1px 1px #d4af37; font-size:1.4rem; color:#000000; font-weight: 600;}		
 p2	{ text-shadow: 2px 1px 1px #000000, 0 0 1em #c0c0c0, 0 0 0.2em #c0c0c0; font-size:1.3em; color:#000000; }
-p3	{ text-shadow: 1px 1px 1px #003bde, 0 0 1em #d4af37, 0 0 0.2em #d4af37; font-size:1.3em; color:#000000; }
+p3	{ text-shadow: 1px 1px 1px #003bde, 0 0 1em #d4af37, 0 0 0.2em #d4af37; font-size:1.4em; color:#000000; }
 p4	{ text-shadow:	0 2px 0 #999, 
 			0 3px 0 #888, 
 			0 4px 0 #777, 
@@ -107,15 +107,20 @@ div.static {position: absolute; left: 50px; top: 0px;}
 
 div.eltlogo {position: absolute; left: 45px; top: 40px;}
 
+
 	/* Image <img class="z" .....> */
 img.z {
     transition:transform 0.25s ease;
 }
 
 img.z:hover {
-    -webkit-transform:scale(3);	 /* or some other value */
+    -webkit-transform:scale(3);  /* or some other value */
     transform:scale(1.7);
 }
+
+
+
+
 
 	/* Image align centre */
 img.center
@@ -152,8 +157,8 @@ div.nav {
            
         }
 /* +++++++++++++ td margin padding +++++++++++++++++++++++++++++++ */
-td {
+table th, table td {
 
- padding: 5;
- margin: 0;
+ padding: 10px;
+
 }
