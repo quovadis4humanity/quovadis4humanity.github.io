@@ -6,8 +6,28 @@
     <link rel="stylesheet" type="text/css" href="pro_drop_1.css">
     <script src="stuHover.js" type="text/javascript"></script>
     <link type="text/css" rel="stylesheet" href="stylesheet.css" media="screen">
+	  
+	  <script type="text/javascript">
+  $(document).ready(function(){                
+        $(window).bind('scroll',fetchMore);
+   });
+
+   fetchMore = function (){
+       if ( $(window).scrollTop() >= $(document).height()-$(window).height()-300 ){
+           $(window).unbind('scroll',fetchMore);
+            $.post('ajax/ajax_manager.php',{'action':'moreReviews','start':$('.review').length,'step':5 },
+            function(data) {
+               if(data.length>10){
+                    $(data).insertBefore($('#moreHolder'));
+                    $(window).bind('scroll',fetchMore);
+               }
+            });
+        }
+   }
+</script>
   </head>
   <body style=" margin:50;padding:0">
+	  <div id='moreHolder">
     <!-- +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= Start NavBar Script +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= -->
     <!-- +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= Start NavBar Script +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= -->
     <!-- +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= Start NavBar Script +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= -->
@@ -161,8 +181,9 @@ Rumble("play", {"video":"vhg5t0","div":"rumble_vhg5t0"});</script>
 Dr. Martin is probably the most qualified, erudite and connected person on the planet to disect and expose the intrigues, total corruption, criminality and evil behind this current
 <br>
 <font color="#760000"><b>global, premeditated Genocide!</b></font>
-<ul><li><i>
-When you inject a known Toxin into a body you're actually <font color="#760000"><b>injecting an agent of Death into the body!</b></font>
+<ul><li>
+	<i>
+"When you inject a known Toxin into a body you're actually <font color="#760000"><b>injecting an agent of Death into the body!</b></font>
 <br>
 Pfizer even stated that they have an 'acceptable death rate'!
 <br>
@@ -183,7 +204,7 @@ This information is tantamount to a Serial Killer leaving behind a Talisman at e
 <li>
 Once people understand that countless physicians have been wilfully participating in the Homicide of Humanity I cannot imagine what it would be like to live with that!
 <br><br>
-The Crime includes the information about the actual collusion that took place between: Moderna, Pfizer, NIAID, CDC, NIH and UNC Chappel Hill
+The Crime includes the information about the actual collusion that took place between: Moderna, Pfizer, NIAID, CDC, NIH and UNC Chappel Hill!"
 </ul>
 
           <!-- ============================== Start Page Break =============================== -->
@@ -362,7 +383,7 @@ As per studies only about 1% of all cases are actually recorded in the VAERS Sys
 <!-- ++++++++++♦♦♦♦♦♦♦++++++++++++++*** END Table *** ++++++♦♦♦♦♦♦♦++++++++++++++++ -->
 
  
-
+</div>
 
  <!-- ++++++++++♦♦♦♦♦♦♦+++++++++++++*** START Table *** ++++++++++++++♦♦♦♦♦♦+++++++++ -->
  <!-- ++++++++++♦♦♦♦♦♦♦++++++++++++++++++++++++++++++++++++++++♦♦♦♦♦♦+++++++++ -->
