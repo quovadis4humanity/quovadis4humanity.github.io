@@ -17,13 +17,17 @@
     <script src="pup.js" type="text/javascript"></script>
 <script type='text/javascript'>
 
+//<![CDATA[
+
+var $jq = jQuery; // this is safe in WP installations with noConflict mode (which is default)
+
 nhpup = {
 
-    pup: null,      // This is the popup box, represented by a div    
+    pup: null,      // This is the popup box, represented by a     
     identifier: "pup",  // Name of ID and class of the popup box
     minMargin: 15,  // Set how much minimal space there should be (in pixels)
                     // between the popup and everything else (borders, mouse)
-    default_width: 500, // Will be set to width from css in document.ready
+    default_width: 280, // Will be set to width from css in document.ready
     move: false,   // Move it around with the mouse? we are only ready for that when the mouse event is set up.
                    // Besides, having this turned off initially is resource-friendly.
 
@@ -123,36 +127,29 @@ nhpup = {
     {
         var deviceAgent = navigator.userAgent.toLowerCase();
         return deviceAgent.match(/(iphone|ipod|ipad|android|blackberry|iemobile|opera m(ob|in)i|vodafone)/) !== null;
-    },
-	
-    initialized: false,
-    initialize : function(){
-        if (this.initialized) return;
-
-        window.$jq = jQuery; // this is safe in WP installations with noConflict mode (which is default)
-
-        /* Prepare popup and define the mouseover callback */
-        jQuery(document).ready(function () {
-            // create default popup on the page
-            $jq('body').append('<div id="' + nhpup.identifier + '" class="' + nhpup.identifier + '" style="position:absolute; display:none; z-index:200;"></div>');
-            nhpup.pup = $jq('#' + nhpup.identifier);
-
-            // set dynamic coords when the mouse moves
-            $jq(document).mousemove(function (e) {
-                if (!nhpup.onTouchDevice()) { // turn off constant repositioning for touch devices (no use for this anyway)
-                    if (nhpup.move) {
-                        nhpup.setElementPos(e.pageX, e.pageY);
-                    }
-                }
-            });
-        });
-
-        this.initialized = true;
     }
 };
 
-if ('jQuery' in window) nhpup.initialize();
-	</script>
+
+/* Prepare popup and define the mouseover callback */
+jQuery(document).ready(function(){
+    // create default popup on the page    
+    $jq('body').append('<div id="' + nhpup.identifier + '" class="' + nhpup.identifier + '" style="position:absolute; display:none; z-index:200;"></div>');
+    nhpup.pup = $jq('#' + nhpup.identifier);
+
+    // set dynamic coords when the mouse moves
+    $jq(document).mousemove(function(e){ 
+        if (!nhpup.onTouchDevice()) { // turn off constant repositioning for touch devices (no use for this anyway)
+            if (nhpup.move){
+                nhpup.setElementPos(e.pageX, e.pageY);
+            }
+        }
+    });
+});
+
+
+//]]>
+</script>
 
 
   </head>
@@ -265,10 +262,10 @@ ALL of which are totally corrupt, criminal, undemocratic, tyrannical & only serv
 
 <!-- ============================= START Text Popup Box ================================= -->
 
-<a onmouseover="nhpup.popup($('#hidden-table-01').html(), {'width': 1000});"><p♦The Perfect Crime!</p></a> 
+<a onmouseover="nhpup.popup($('#hidden-table-01').html(), {'width': 1000});"><p>🗯The Perfect Crime!</p></a> 
 
 	<div style="display:none;" id="hidden-table-01"> 
-	<table width="750" border="0"> 
+	<table width="1000" border="0"> 
 	<tbody> 	
 	<tr>
 <td>
