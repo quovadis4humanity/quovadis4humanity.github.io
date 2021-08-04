@@ -31,7 +31,6 @@ p, ul, ol,    		{font-family: "georgia";}
 p6			{font-size:1.4rem; color:#a52101; }
 p7			{font-size:1.4rem; color:#521000; }
 p8			{font-size:1rem; color:#544200; }
-
 /* ++++++++++++++++++ Text Size Test ++++++++++++++++++++++ */
 ul, span, td		{font-size: 22px;}
 
@@ -152,14 +151,20 @@ div.nav {
 }
 
 /* -------------------------------- Image Shadow -------------------------- */
-  img.s {
-            filter: drop-shadow(5px 5px 5px #222);
-            
+  img.s 	{filter: drop-shadow(5px 5px 5px #222);}
+  img.s	{margin: 10px 0px;}
            
-        }
+        
+
 /* +++++++++++++ td margin padding +++++++++++++++++++++++++++++++ */
 table th, table td {
 
  padding: 10px;
 
 }
+
+.navp {width: 500px;}
+navp {width: 1500px;}
+ul.navp {width: 500px;}
+.navp {width: 500px;}
+ul.navp {max-width: 500px;}
