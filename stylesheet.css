@@ -106,6 +106,7 @@ img					{border-color:#3f5582;}
 
 td			{vertical-align: text-top;}
 td.a   			{border-radius: 20px;}
+td.b   			{border-radius: 10px;}
 
 a:link 	{ color: #445E06; text-decoration: none; font-weight: 600;}       /* unvisited link */
 a:visited	{ color: #243B0B; text-decoration: none;}       /* visited links */
@@ -174,9 +175,52 @@ table th, table td {
  padding: 10px;
 
 }
+td.b	{ padding: 4px;}
 
 .navp {width: 500px;}
 navp {width: 1500px;}
 ul.navp {width: 500px;}
 .navp {width: 500px;}
 ul.navp {max-width: 500px;}
+
+
+/* ++++++++++++++++++++++ Tab ++++++++++++++++ */
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 0px solid #da9705;
+  background-color: #fff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 4px 4px;
+  transition: 0.3s;
+  font-size: 1.4em;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #8f9f34;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #b4bf8b;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 3px 3px;
+  border: 0px solid #b4bf8b;
+  border-top: none;
+}
+
+
+
