@@ -229,8 +229,15 @@ ol li {
 	counter-increment: list;
 	list-style-type: none;
 	position: relative; 
-	margin-left: -1em
+	
 }
 
-ol li:before {content: counter(list) ".  "; font-weight: bolder; color: #003ea0;}
+ol li:before {content: counter(list) ".  "; 
+	font-weight: bolder;
+	color: #003ea0;
+	left:-32px;
+  	position: absolute;
+  	text-align: right;
+  	width: 26px;
+}
 
