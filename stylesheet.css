@@ -15,7 +15,7 @@ p, h2 {font-weight: 500;}
 
 	
 h1,  h3, h4, h5, h6  		{color:#353535}
-p, ul, h2, body, td, ul, ol	{color:#424242}
+p, ul, h2, body, td, ul, ol, div	{color:#424242}
 
 
 h1			{font-size:1.4rem;}
@@ -25,7 +25,7 @@ h3 			{font-size:1.4rem;}
 h2 			{font-size:1.4rem;}
 p, p.b 	 	                {font-size:1.4rem;}
 /*
-ul, span, td, body		{font-size:1.4rem;}				
+ul, span, td, body, div	{font-size:1.4rem;}				
 */
 p, ul, ol,    		{font-family: "georgia";}
 p6			{font-size:1.4rem; color:#a52101; }
@@ -223,4 +223,4 @@ ul.navp {max-width: 500px;}
 }
 
 
-
+ol li	{color: #43007e; font-weight: bolder} 
