@@ -234,7 +234,7 @@ ol li {
 
 ol li:before {content: counter(list) ".  "; 
 	font-weight: bolder;
-	color: #003ea0;
+	color: #445b00;
 	left:-32px;
   	position: absolute;
   	text-align: right;
