@@ -222,5 +222,15 @@ ul.navp {max-width: 500px;}
   border-top: none;
 }
 
+/* ++++++++++++++ Ordererd Lists Numbers +++++++++++++++ */
 
-ol li	{color: #43007e; font-weight: bolder} 
+ol {list-style: none; counter-reset: li}
+ol li {
+	counter-increment: list;
+	list-style-type: none;
+	position: relative; 
+	margin-left: -1em
+}
+
+ol li:before {content: counter(list) ".  "; font-weight: bolder; color: #003ea0;}
+
